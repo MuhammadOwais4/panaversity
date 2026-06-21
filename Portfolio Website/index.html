@@ -272,7 +272,11 @@
     ══════════════════════════════ */
     #about { background:var(--dark); border-top:1px solid var(--border); }
     .about-grid {
+<<<<<<< HEAD
       display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.6fr); gap:60px;
+=======
+      display:grid; grid-template-columns:1fr 1.4fr; gap:80px;
+>>>>>>> 02ed9fee4349d2a678df15fa35bb028c584ef4f6
       align-items:start; margin-top:60px;
     }
     .about-bio {
@@ -302,12 +306,18 @@
     .skills-track span.dot { color:var(--accent); }
     @keyframes marquee { from{transform:translateX(0)} to{transform:translateX(-50%)} }
 
+<<<<<<< HEAD
     .skills-grid { display:grid; grid-template-columns:1fr 1fr; gap:24px 24px; width:100%; min-width:0; }
     .skill-cat { min-width:0; }
     .skill-tags { display:flex; flex-wrap:wrap; gap:8px; }
     .skill-tag { font-size:11px; letter-spacing:0.05em; color:var(--muted); border:1px solid var(--border); padding:6px 12px; border-radius:2px; transition:all 0.3s; white-space:normal; word-break:break-word; }
     .skill-cat-title { font-size:10px; letter-spacing:0.2em; color:var(--accent); text-transform:uppercase; margin-bottom:12px; font-weight:600; }
 
+=======
+    .skills-grid { display:grid; grid-template-columns:1fr 1fr; gap:24px 32px; }
+    .skill-cat-title { font-size:10px; letter-spacing:0.2em; color:var(--accent); text-transform:uppercase; margin-bottom:12px; font-weight:600; }
+    .skill-tags { display:flex; flex-wrap:wrap; gap:8px; }
+>>>>>>> 02ed9fee4349d2a678df15fa35bb028c584ef4f6
     .skill-tag {
       font-size:11px; letter-spacing:0.05em; color:var(--muted);
       border:1px solid var(--border); padding:6px 12px; border-radius:2px;
