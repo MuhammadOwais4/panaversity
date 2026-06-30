@@ -1,0 +1,21 @@
+{
+  "expected_total": 45000,
+  "amount_per_person": 5000,
+  "members_who_should_pay": [
+    "Ali Raza", "Sara Ahmed", "Bilal", "Hassan", "Fawad",
+    "Asad Khan", "Zainab", "Usman", "Hina"
+  ],
+  "name_mapping_rules": {
+    "Ali bhai trip": "Ali Raza",
+    "from Sara - trip fund": "Sara Ahmed",
+    "Bilal Khan": "Bilal",
+    "Trip payment - Hassan": "Hassan",
+    "fawad": "Fawad",
+    "Sara again leftover": "Sara Ahmed",
+    "A. Khan": "Asad Khan",
+    "zainab trip cont": "Zainab",
+    "Bilal (remaining)": "Bilal",
+    "M Owais": "Owais (organizer - not a debtor)"
+  },
+  "notes": "These mappings are based on my own knowledge of who sent what — the payment app's memo field is unreliable/ambiguous and was matched manually before being given to the script."
+}

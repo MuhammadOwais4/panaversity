@@ -1,0 +1,18 @@
+{
+  "grading_policy": {
+    "categories": {
+      "quizzes":     {"weight": 0.15, "drop_lowest": 1},
+      "assignments": {"weight": 0.20, "drop_lowest": 0},
+      "midterm":     {"weight": 0.25, "drop_lowest": 0},
+      "final_exam":  {"weight": 0.40, "drop_lowest": 0}
+    },
+    "notes": "Lowest quiz score is dropped automatically. Final exam score is out of 100 and not yet known."
+  },
+  "scores": {
+    "quizzes":     [85, 70, 90, 60, 95],
+    "assignments": [88, 92, 79, 95],
+    "midterm":     [72],
+    "final_exam":  []
+  },
+  "target_grade": 80
+}
